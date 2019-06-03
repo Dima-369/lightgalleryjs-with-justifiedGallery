@@ -3,7 +3,7 @@
 I struggled a bit to setup a nice looking plain gallery, so I made this bare-bones
 implementation if anyone else needs a bit of guidance to set up everything correctly :)
 
-[Demo](TODO Github pages)
+[GitHub Pages Demo](https://gira-x.github.io/lightgalleryjs-with-justifiedGallery/)
 
 There are more plugins for lightgallery, but this demo does not use all, just the ones
 I find useful.
@@ -23,5 +23,5 @@ this here.
 
 ### Links
 
-[lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/)
+[lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/)\
 [Justified Gallery](https://miromannino.github.io/Justified-Gallery/)
