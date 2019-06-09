@@ -16,10 +16,14 @@ The HTML file is also beautified because it is easier to skim over if you do not
 
 ### Images
 
-The images are all from the animal category from [Unsplash](https://unsplash.com/search/photos/animal).
+The images are all from the animal category from 
+[Unsplash](https://unsplash.com/search/photos/animal).
 
-For performance it would be better to display thumbnail images in the `<img src=...`, but I skipped
-this here.
+The thumbs are generated using the Python 3 script `generate-img-thumbs.py`.
+Because the `rowHeight` setting from `lightgallery` is just a rough estimate, it seems to be better
+slightly larger thumbs so it does not look too downsampled.
+
+Only the first image has a title set using `alt="..."` and `data-sub-html="..."`.
 
 ### Links
 

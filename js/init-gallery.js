@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$('#lightgallery').justifiedGallery({
-		// use any rowHeight, 300 is just chosen in this case because it looks good
-		rowHeight: 300,
+		// use any rowHeight, this value is just chosen because it looks good here
+		rowHeight: 250,
 	}).on('jg.complete', function () {
 		// the 'subHtmlSelectorRelative: true' option never seems to work :(
 		// even if you set the justifiedGallery 'captions: false' option
